@@ -18,7 +18,7 @@ Implement the abstract method ```- (void)populateWithObject:(id)object;```. This
 }
 ```
 
-![Plain text labels](/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels.png?raw=true "DBDynamicHeightTableCell-PlainLabels")
+![Plain text labels](/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels-small.png?raw=true "DBDynamicHeightTableCell-PlainLabels")
 
 You can even use attributed strings, different font sizes, colors, etc.
 
@@ -34,7 +34,7 @@ You can even use attributed strings, different font sizes, colors, etc.
 }
 ```
 
-![Attributed text labels](/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels.png?raw=true "DBDynamicHeightTableCell-AttributedLabels")
+![Attributed text labels](/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels-small.png?raw=true "DBDynamicHeightTableCell-AttributedLabels")
 
 To refer to your cell's xib implement the abstract method ```+ (UINib *)nib;```.
 
