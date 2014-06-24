@@ -33,11 +33,14 @@
 - (void)populateWithObject:(id)object
 {
     NSAttributedString *attributedHeadline = [[NSAttributedString alloc] initWithString:[object headline] attributes:@{NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle),
-                                                                                                                       NSFontAttributeName: [UIFont boldSystemFontOfSize:16.0]}];
+                                                                                                                       NSFontAttributeName: [UIFont boldSystemFontOfSize:16.0],
+                                                                                                                       NSForegroundColorAttributeName: [UIColor redColor]}];
+    
+    NSAttributedString *attributedSummary = [[NSAttributedString alloc] initWithString:[object summary] attributes:@{NSFontAttributeName: [UIFont italicSystemFontOfSize:14.0]}];
+    
     
     self.headlineLabel.attributedText = attributedHeadline;
-    self.summaryLabel.text = [object summary];
+    self.summaryLabel.attributedText = attributedSummary;
 }
-
 
 @end
