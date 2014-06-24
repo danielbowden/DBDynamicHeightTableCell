@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="yJu-3K-aym" customClass="InfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yJu-3K-aym" id="DSt-pK-1xy">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="4ii-Dj-YFK">
+                        <rect key="frame" x="10" y="10" width="300" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="OHV-gr-ZTO"/>
+                            <constraint firstAttribute="width" constant="300" id="qKS-ne-LuV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="WKT-RL-fQN">
+                        <rect key="frame" x="10" y="35" width="300" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="Adr-P3-fdR"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="OdP-gK-XNE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="WKT-RL-fQN" secondAttribute="bottom" constant="8" id="0HB-HS-Yb2"/>
+                    <constraint firstItem="4ii-Dj-YFK" firstAttribute="leading" secondItem="DSt-pK-1xy" secondAttribute="leading" constant="10" id="18Y-ar-fFF"/>
+                    <constraint firstAttribute="trailing" secondItem="4ii-Dj-YFK" secondAttribute="trailing" constant="10" id="8T4-bL-FEt"/>
+                    <constraint firstItem="WKT-RL-fQN" firstAttribute="top" secondItem="4ii-Dj-YFK" secondAttribute="bottom" constant="5" id="bvQ-Dz-tl5"/>
+                    <constraint firstItem="4ii-Dj-YFK" firstAttribute="top" secondItem="DSt-pK-1xy" secondAttribute="top" constant="10" id="dqn-qS-lJq"/>
+                    <constraint firstItem="WKT-RL-fQN" firstAttribute="top" secondItem="4ii-Dj-YFK" secondAttribute="bottom" constant="5" id="mY4-vf-xPl"/>
+                    <constraint firstItem="WKT-RL-fQN" firstAttribute="leading" secondItem="DSt-pK-1xy" secondAttribute="leading" constant="10" id="pfq-fR-je6"/>
+                    <constraint firstAttribute="trailing" secondItem="WKT-RL-fQN" secondAttribute="trailing" constant="10" id="poH-i9-DGh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headlineLabel" destination="4ii-Dj-YFK" id="1Ua-pp-p4l"/>
+                <outlet property="summaryLabel" destination="WKT-RL-fQN" id="Xe7-Yq-UdR"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

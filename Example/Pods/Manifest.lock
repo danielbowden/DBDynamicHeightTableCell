@@ -1,0 +1,14 @@
+PODS:
+  - DBDynamicHeightTableCell (0.1.0)
+
+DEPENDENCIES:
+  - DBDynamicHeightTableCell (from `../`)
+
+EXTERNAL SOURCES:
+  DBDynamicHeightTableCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DBDynamicHeightTableCell: c2501f224c5c48ff91c1d8e1a55de0ff902529b0
+
+COCOAPODS: 0.33.1
