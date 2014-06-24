@@ -34,7 +34,7 @@ You can even use attributed strings, different font sizes, colors, etc.
 }
 ```
 
-![Attributed text labels](/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels-small.png?raw=true "DBDynamicHeightTableCell-AttributedLabels")
+[![Attributed text labels](/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels-small.png?raw=true)](/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels.png?raw=true)
 
 To refer to your cell's xib implement the abstract method ```+ (UINib *)nib;```.
 
