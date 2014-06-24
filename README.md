@@ -18,7 +18,7 @@ Implement the abstract method ```- (void)populateWithObject:(id)object;```. This
 }
 ```
 
-![Plain text labels](/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels-small.png?raw=true "DBDynamicHeightTableCell-PlainLabels")
+[![Plain text labels](/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels-small.png?raw=true)](/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels.png?raw=true)
 
 You can even use attributed strings, different font sizes, colors, etc.
 
