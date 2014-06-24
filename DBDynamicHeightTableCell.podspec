@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Daniel Bowden" => "github@bowden.in" }
   s.source           = { :git => "https://github.com/danielbowden/DBDynamicHeightTableCell.git", :tag => s.version.to_s }
+  s.screenshots      = "https://raw.githubusercontent.com/danielbowden/DBDynamicHeightTableCell/master/Example/Screenshots/DBDynamicHeightTableCell-AttributedLabels.png", "https://raw.githubusercontent.com/danielbowden/DBDynamicHeightTableCell/master/Example/Screenshots/DBDynamicHeightTableCell-PlainLabels.png"
   s.social_media_url = 'https://twitter.com/danielgbowden'
 
   s.platform     = :ios, '7.0'
