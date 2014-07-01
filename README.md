@@ -4,6 +4,8 @@ A UITableViewCell subclass assisting in autolayout based dynamic height cells fo
 
 There is an example project included. Clone the repo and open "DBDynamicHeightTableCellDemo.xcworkspace".
 
+Mentioned by [Orta Therox](https://github.com/orta) of [Cocoapods](http://cocoapods.org) on his [Pod5 podcast - Episode 13](http://pod5.io/episode13/).
+
 ## Usage
 
 Create a ```DBDynamicHeightTableCell``` subclass like in the example (InfoCell.h/m/xib).
@@ -60,7 +62,11 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Daniel Bowden, [danielbowden](https://github.com/danielbowden).
+Daniel Bowden
+
+[github.com/danielbowden](https://github.com/danielbowden)
+
+[twitter.com/danielgbowden](https://twitter.com/danielgbowden)
 
 ## License
 
