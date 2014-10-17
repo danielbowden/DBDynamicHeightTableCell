@@ -1,6 +1,6 @@
 # DBDynamicHeightTableCell
 
-A UITableViewCell subclass assisting in autolayout based dynamic height cells for tableviews. Uses recommended approach creating a prototype cell and systemLayoutSizeFittingSize to resize superview to systemLayoutSizeFittingSize all subviews of the cell's contentView with autolayout. Rather than the old method of sizeWithFont etc.
+A UITableViewCell subclass for iOS 7 assisting in autolayout based dynamic height cells for tableviews. It uses the recommended approach of creating a prototype cell and using systemLayoutSizeFittingSize to resize the superview to UILayoutFittingCompressedSize to fit all subviews of the cell's contentView according to their autolayout constraints. Rather than the old method of sizeWithFont etc that is now deprecated.
 
 There is an example project included. Clone the repo and open "DBDynamicHeightTableCellDemo.xcworkspace".
 
