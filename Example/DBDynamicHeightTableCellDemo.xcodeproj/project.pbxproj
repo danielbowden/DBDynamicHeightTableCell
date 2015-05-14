@@ -15,25 +15,12 @@
 		655D054619591D6E00F368C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D054519591D6E00F368C5 /* main.m */; };
 		655D054A19591D6F00F368C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D054919591D6F00F368C5 /* AppDelegate.m */; };
 		655D054C19591D6F00F368C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655D054B19591D6F00F368C5 /* Images.xcassets */; };
-		655D055319591D6F00F368C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655D055219591D6F00F368C5 /* XCTest.framework */; };
-		655D055419591D6F00F368C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655D053919591D6E00F368C5 /* Foundation.framework */; };
-		655D055519591D6F00F368C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655D053D19591D6E00F368C5 /* UIKit.framework */; };
 		655D05761959254A00F368C5 /* NewsStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D05751959254A00F368C5 /* NewsStory.m */; };
 		655D057D19592E5000F368C5 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D057819592E5000F368C5 /* DemoViewController.m */; };
 		655D057E19592E5000F368C5 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D057919592E5000F368C5 /* DemoViewController.xib */; };
 		655D057F19592E5000F368C5 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D057B19592E5000F368C5 /* InfoCell.m */; };
 		655D058019592E5000F368C5 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D057C19592E5000F368C5 /* InfoCell.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		655D055619591D6F00F368C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 655D052E19591D6E00F368C5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 655D053519591D6E00F368C5;
-			remoteInfo = DBDynamicHeightTableCellDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08A0B5FD396D47DB8CECFD84 /* Pods-DBDynamicHeightTableCellDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBDynamicHeightTableCellDemo.xcconfig"; path = "Pods/Pods-DBDynamicHeightTableCellDemo.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +35,6 @@
 		655D054819591D6E00F368C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		655D054919591D6F00F368C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		655D054B19591D6F00F368C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		655D055119591D6F00F368C5 /* DBDynamicHeightTableCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBDynamicHeightTableCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655D055219591D6F00F368C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		655D05741959254A00F368C5 /* NewsStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsStory.h; path = Model/NewsStory.h; sourceTree = "<group>"; };
 		655D05751959254A00F368C5 /* NewsStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsStory.m; path = Model/NewsStory.m; sourceTree = "<group>"; };
@@ -73,16 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655D054E19591D6F00F368C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				655D055319591D6F00F368C5 /* XCTest.framework in Frameworks */,
-				655D055519591D6F00F368C5 /* UIKit.framework in Frameworks */,
-				655D055419591D6F00F368C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				655D053619591D6E00F368C5 /* DBDynamicHeightTableCellDemo.app */,
-				655D055119591D6F00F368C5 /* DBDynamicHeightTableCellDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,24 +160,6 @@
 			productReference = 655D053619591D6E00F368C5 /* DBDynamicHeightTableCellDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		655D055019591D6F00F368C5 /* DBDynamicHeightTableCellDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 655D056519591D6F00F368C5 /* Build configuration list for PBXNativeTarget "DBDynamicHeightTableCellDemoTests" */;
-			buildPhases = (
-				655D054D19591D6F00F368C5 /* Sources */,
-				655D054E19591D6F00F368C5 /* Frameworks */,
-				655D054F19591D6F00F368C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				655D055719591D6F00F368C5 /* PBXTargetDependency */,
-			);
-			name = DBDynamicHeightTableCellDemoTests;
-			productName = DBDynamicHeightTableCellDemoTests;
-			productReference = 655D055119591D6F00F368C5 /* DBDynamicHeightTableCellDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,11 +168,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Daniel Bowden";
-				TargetAttributes = {
-					655D055019591D6F00F368C5 = {
-						TestTargetID = 655D053519591D6E00F368C5;
-					};
-				};
 			};
 			buildConfigurationList = 655D053119591D6E00F368C5 /* Build configuration list for PBXProject "DBDynamicHeightTableCellDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -230,7 +182,6 @@
 			projectRoot = "";
 			targets = (
 				655D053519591D6E00F368C5 /* DBDynamicHeightTableCellDemo */,
-				655D055019591D6F00F368C5 /* DBDynamicHeightTableCellDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +195,6 @@
 				655D058019592E5000F368C5 /* InfoCell.xib in Resources */,
 				655D057E19592E5000F368C5 /* DemoViewController.xib in Resources */,
 				655D054C19591D6F00F368C5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		655D054F19591D6F00F368C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,22 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655D054D19591D6F00F368C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		655D055719591D6F00F368C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 655D053519591D6E00F368C5 /* DBDynamicHeightTableCellDemo */;
-			targetProxy = 655D055619591D6F00F368C5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		655D054219591D6E00F368C5 /* InfoPlist.strings */ = {
@@ -429,46 +358,6 @@
 			};
 			name = Release;
 		};
-		655D056619591D6F00F368C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBDynamicHeightTableCellDemo.app/DBDynamicHeightTableCellDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBDynamicHeightTableCellDemo/DBDynamicHeightTableCellDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DBDynamicHeightTableCellDemoTests/DBDynamicHeightTableCellDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		655D056719591D6F00F368C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBDynamicHeightTableCellDemo.app/DBDynamicHeightTableCellDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBDynamicHeightTableCellDemo/DBDynamicHeightTableCellDemo-Prefix.pch";
-				INFOPLIST_FILE = "DBDynamicHeightTableCellDemoTests/DBDynamicHeightTableCellDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,15 +375,6 @@
 			buildConfigurations = (
 				655D056319591D6F00F368C5 /* Debug */,
 				655D056419591D6F00F368C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		655D056519591D6F00F368C5 /* Build configuration list for PBXNativeTarget "DBDynamicHeightTableCellDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				655D056619591D6F00F368C5 /* Debug */,
-				655D056719591D6F00F368C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
