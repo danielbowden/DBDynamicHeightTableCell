@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DBDynamicHeightTableCell"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A UITableViewCell subclass assisting in autolayout based dynamic height cells for tableviews"
   s.description      = <<-DESC
                        A UITableViewCell subclass assisting in autolayout based dynamic height cells for tableviews. Uses recommended approach creating a prototype cell and systemLayoutSizeFittingSize to resize superview to systemLayoutSizeFittingSize all subviews of the cell's contentView with autolayout. Rather than the old method of sizeWithFont etc. 
