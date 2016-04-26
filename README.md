@@ -4,7 +4,7 @@ A UITableViewCell subclass for iOS 7 assisting in autolayout based dynamic heigh
 
 There is an example project included. Clone the repo and open "DBDynamicHeightTableCellDemo.xcworkspace".
 
-Mentioned by [Orta Therox](https://github.com/orta) of [Cocoapods](http://cocoapods.org) on his [Pod5 podcast - Episode 13](http://pod5.io/episode13/).
+Mentioned by [Orta Therox](https://github.com/orta) of [CocoaPods](http://cocoapods.org) on his [Pod5 podcast - Episode 13](http://pod5.io/episode13/).
 
 ## Usage
 
